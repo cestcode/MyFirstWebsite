@@ -1,0 +1,40 @@
+#navbar{
+    flex-direction: column;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem ;
+    height: 6rem;
+}
+#training > h3{
+    border:0;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 0.75rem;
+}
+#training .items {
+    display: flex;
+    flex-direction: column;
+}
+#training .items .item{
+    width: 100%;
+}
+.courses .course{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.courses .course .title{
+    margin: 0.5rem auto;
+}
+.courses .course .course-info .description{
+    margin-top:1rem;
+}
+.courses .course .course-info .instructor{
+    position:relative;
+    margin: 1rem 0;
+}
+
+#contact h4{
+    border-bottom: 1px solid lightgrey;
+}
+#contact .contact-form button{
+    width: 100%;
+}

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bismillahirrahmanirrahim</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <!-- include css -->
+    <link rel="stylesheet" href="D:\Masaustu\Web Site\ilk web\global.css">
+    <link rel="stylesheet" href="D:\Masaustu\Web Site\ilk web\bismillah.css">
+    <!-- for tablet -->
+    <link rel="stylesheet" media="(max-width:768px)" href="D:\Masaustu\Web Site\ilk web\tablet.css">
+    <!-- for mobil -->
+    <link rel="stylesheet" media="(max-width:500px)" href="D:\Masaustu\Web Site\ilk web\mobil.css">
+</head>
+
+<body>
+    <header class="bg-coral">
+        <div class="container">
+            <nav id="navbar">
+                <h1 class="text-center heading-large">MY PAGE</h1>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#training">Training</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#contact">Content</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <img src="Images/profil.jpg" alt="profil foto">
+
+        <div class="giris text-center">
+            <h2 class="heading-large">SEVINC TANIS</h2>
+            <p>Ben kısaca ST | Biligsayar Mühendisi adayı</p>
+        </div>
+
+        <a class="bg-coral btn" href="#courses">Go to Courses!</a>
+    </section>
+
+    <section id="training" class="bg-coral">
+        <h3 class="text-center heading medium">TRAINING</h3>
+        <div class="items">
+            <article class="item">
+                <i class="fa-solid fa-paper-plane"></i>
+                <h3>Sınıf içi eğitimler</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, rerum.</p>
+            </article>
+            <article class="item">
+                <i class="fa-solid fa-paper-plane"></i>
+                <h3>Online içerikler</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, rerum.</p>
+            </article>
+            <article class="item">
+                <i class="fa-solid fa-paper-plane"></i>
+                <h3>Konferanslar</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, rerum.</p>
+            </article>
+        </div>
+    </section>
+
+    <section id="courses">
+        <h3 class="text-center heading-medium">COURSES</h3>
+        <div class="container">
+            <div class="courses">
+                <div class="course ">
+                    <div class="course-img">
+                        <img src="Images/python.jpg" width="160px" alt="Python">
+                        <span>%50 İndirim</span>
+                    </div>
+                    <div class="course-info">
+                        <div class="title bg-light-gray">Python Kursu</div>
+                        <div class="description">A'dan Z'ye Python Öğren</div>
+                        <div class="instructor">Adamın Biri</div>
+                        <div class="rating">4.4 | (6581 Oylama)</div>
+                    </div>
+                </div>
+                <div class="course">
+                    <div class="course-img">
+                        <img src="Images/javascript.png" width="160px" alt="JavaScript">
+                        <span>%50 İndirim</span>
+                    </div>
+                    <div class="course-info">
+                        <div class="title bg-light-gray">JavaScript Kursu</div>
+                        <div class="description">A'dan Z'ye JavaScript Öğren</div>
+                        <div class="instructor">Adamın Biri</div>
+                        <div class="rating">4.8 | (9276 Oylama)</div>
+                    </div>
+                </div>
+                <div class="course">
+                    <div class="course-img">
+                        <img src="Images/c-sharp.png" width="160px" alt="C#">
+                        <span>%50 İndirim</span>
+                    </div>
+                    <div class="course-info">
+                        <div class="title bg-light-gray">C# Kursu</div>
+                        <div class="description">A'dan Z'ye C# Öğren</div>
+                        <div class="instructor">Adamın Biri</div>
+                        <div class="rating">4.6 | (5846 Oylama)</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="bg-coral">
+        <div class="contact-form">
+            <h4 class="text-center heading-medium">CONTACT ME</h4>
+            <form class="ortala">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" name="name" id="name" placeholder="Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="text" class="form-control" name="email" id="email"
+                        placeholder="e-mail (example@gmail.com)">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea type="text" class="form-control" name="message" id="message" rows="6"
+                        placeholder="Message"></textarea>
+                </div>
+                <button class="text-center" type="submit">Send</button>
+            </form>
+            <ul class="ortala">
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
